@@ -1,6 +1,0 @@
-# Html templates
-
-
-## Description
-
-
