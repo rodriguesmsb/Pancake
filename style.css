@@ -12,7 +12,7 @@ body{
 }
 
 p{
-    max-width: 600;
+    max-width: 600px;
 }
 #container{
     max-width: 1200px;
