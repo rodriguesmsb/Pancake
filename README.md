@@ -1,6 +1,6 @@
-# Pancake
+# Html templates
 
 
 ## Description
 
-A responsive pancake stack layout build only with css grid.
+
