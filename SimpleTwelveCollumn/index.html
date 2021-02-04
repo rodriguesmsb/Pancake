@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/behold-logo-small.png"></link>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+    <title>Behold</title>
+
+</head>
+
+<body>
+
+
+    <div id="container">
+
+        <div class="logo-container">
+            <img src="img/behold-logo.png" alt="Behold"/>
+        </div>
+
+
+        <div class="panel-container">
+
+            <div class="panel">
+                <h1 class="panel-heading">Create an account</h1>
+                <p class="panel-subheading">Already have an account?<a href="#"> Sign in</a></p>
+
+                <form onsubmit="alert('Sucess')">
+                    <div class="input">
+                        <label for="email-adress">Email adress</label>
+                        <input type="email" required id="email-adress"/>
+                        <div class="input-indicator"> </div>
+
+
+                    </div>
+
+                    <div class="name">
+                        <div class="input">
+                            <label for="first-name">First name</label>
+                            <input type="text" required id="first-name"/>
+                            <div class="input-indicator"> </div>
+                        </div>
+    
+                        <div class="input">
+                            <label for="last-name">Last name</label>
+                            <input type="text" required id="last-name"/>
+                            <div class="input-indicator"> </div>
+                        </div>
+                    </div>
+
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" required id="password"/>
+                        <div class="input-indicator"> </div>
+                    </div>
+
+                    <div class="birthdate">
+                        <h6 class="birthdate-heading">Date of birth</h6>
+
+                        <div class="birthdate-input">
+                            <div class="dropdown">
+                                <label for="month">Month</label>
+                                <select name="month" id="month">
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                </select>
+                            </div>
+
+                            <div class="input">
+                                <label for="day">Day</label>
+                                <input type="number" required id="day" min="1" max="31"/>
+                                <div class="input-indicator"> </div>
+                            </div>
+                            <div class="input">
+                                <label for="year">Year</label>
+                                <input type="number" required id="day" min="1900" max="2021"/>
+                                <div class="input-indicator"> </div>
+                            </div>
+    
+    
+                        </div>
+                        
+                    </div>
+
+                    <p class="consents">
+                        By clicking Create account, I agree that I have read anc accepted the
+                         <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                    </p>
+
+                    <button type="submit">Create account</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
