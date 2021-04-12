@@ -1,0 +1,20 @@
+header{
+    display: grid;
+    border: 1px solid tomato;
+    font-size: 48px;
+    justify-content: center;
+    color: blueviolet;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 90vh;
+    border: 1px solid black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
